@@ -79,9 +79,51 @@ Successfully installed cowsay-6.1
 [notice] A new release of pip is available: 25.0.1 -> 25.1.1
 [notice] To update, run: python.exe -m pip install --upgrade pip
 
-
 """
 
+
+
+"""Using Package
+
+Now that the 'cowsay' module is installed in your virtual environment, lets use it to display a talking cow.
+Create a file called test.py on your computer. You can place it wherever you want, but I will place it in the same location as the myfirstproject folder -not in the folder, but in the same location.
+Open the file and insert these three lines in it:
+
+Example
+Insert two lines in test.py:
+
+import cowsay
+cowsay.cow("Good Mooooorning!")
+
+Then, try to execute the file while you are in the virtual environment:
+
+code: python test.py
+
+Result
+The purpose of the 'cowsay' module is to draw a cow that says whatever input you give it:
+
+  _________________
+| Good Mooooorning! |
+  =================
+                 \
+                  \
+                    ^__^
+                    (oo)\_______
+                    (__)\       )\/\
+                        ||----w |
+                        ||     ||
+"""
+
+
+"""
+Deactivate Virtual Environment
+To deactivate the virtual environment use this command:
+
+Example
+Deactivate the virtual environment:
+
+code: deactivate
+"""
 
 
 
